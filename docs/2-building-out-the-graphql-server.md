@@ -755,7 +755,7 @@ In our specific case, we want to make the GraphQL API nicer and remove the relat
 
    namespace ConferencePlanner.GraphQL.Types
    {
-       public class SpeakerType : ObjectType<Speaker>
+       public class SessionType : ObjectType<Speaker>
        {
            protected override void Configure(IObjectTypeDescriptor<Speaker> descriptor)
            {
